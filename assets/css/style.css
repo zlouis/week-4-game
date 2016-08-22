@@ -1,0 +1,39 @@
+    .allFood {
+      width: 150px;
+      height: 150px;
+
+    }
+
+  /*  html {
+    	background-image: url('../images/bear1.jpg');
+    	z-index: -10;
+    }*/
+
+    body {
+    	background-image: url('../images/bear1.jpg');
+    	z-index: -10;
+
+    }
+
+	.thisNumber {
+		text-align: center;
+
+	}
+	.thisScore {
+		text-align: center;
+	}
+
+	.container {
+		margin-left: 70%;
+		margin-top:5%;
+	}
+
+	.grizzlytitle {
+		text-align: center;
+	}
+
+
+
+	.sizing {
+		width:800px;
+	}
