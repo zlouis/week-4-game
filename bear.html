@@ -7,13 +7,27 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js">
+</script>
+
+<link type="text/javascript" src="assets/javascript/game.js">
+
+
 
 
 
 
 </head>
 
+
+
+
 <body>
+<script src="assets/javascript/game.js"> 
+
+
+
+</script>
        <div class="container">
         <div class="row sizing">
           <div class="col-lg-6">
@@ -57,133 +71,12 @@
           </div>
           </div>
           </div>
+
+
+           <div class="footer">
+            <p class="footer-text">Copyright (c) 2016 Louis Huang</p>
+         </div>
         
-
-
- <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-<script  type="text/javascript">
-
-
-
-$(document).ready(function () {
-
-      var numberToGuess= 99;
-
-      var counter= 0;
-
-
-      $('#number').text(numberToGuess);
-
-  
-          $('.blueberries').on('click', function() {
-            counter= counter + 10;
-
-            $('#yourNumber').text(counter);
-            
-            if (counter == numberToGuess) {
-              alert('Nice, the bear is fed just right! Time to go into hibernation. Lets find another bear to feed!');
-
-            }else if (counter > numberToGuess) {
-              alert('The bear died from obesity. Find another bear to feed');
-            }
-            });
-
-
-           $('.huckleberries').on('click', function() {
-            counter= counter + 5;
-
-            $('#yourNumber').text(counter);
-            
-            if (counter == numberToGuess) {
-              alert('Nice, the bear is fed just right! Time to go into hibernation. Lets find another bear to feed!');
-
-            }else if (counter > numberToGuess) {
-              alert('The bear died from obesity. Find another bear to feed');
-            }
-            });
-
-
-           $('.larva').on('click', function() {
-            counter= counter + 9;
-
-            $('#yourNumber').text(counter);
-            
-            if (counter == numberToGuess) {
-              alert('Nice, the bear is fed just right! Time to go into hibernation. Lets find another bear to feed!');
-
-            }else if (counter > numberToGuess) {
-              alert('The bear died from obesity. Find another bear to feed');
-            }
-            });
-
-
-           $('.salmon').on('click', function() {
-            counter= counter + 21;
-
-            $('#yourNumber').text(counter);
-            
-            if (counter == numberToGuess) {
-              alert('Nice, the bear is fed just right! Time to go into hibernation. Lets find another bear to feed!');
-
-            }else if (counter > numberToGuess) {
-              alert('The bear died from obesity. Find another bear to feed');
-            }
-            });
-
-
-
-
-
-
-
-
-
-        });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
-
-
-  
-
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
