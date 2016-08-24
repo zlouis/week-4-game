@@ -14,7 +14,12 @@ $(document).ready(function () {
 
   
           $('.blueberries').on('click', function() {
-            counter= counter + 10;
+            
+              for (var i=0; i<2; i++){
+             var random1 = Math.floor(Math.random() * 9) + 1
+           }
+           counter= random1 + counter;
+             
 
             $('#yourNumber').text(counter);
             
@@ -23,12 +28,16 @@ $(document).ready(function () {
 
             }else if (counter > numberToGuess) {
               alert('The bear died from obesity. Find another bear to feed');
+              counter=0;
             }
             });
 
 
            $('.huckleberries').on('click', function() {
-            counter= counter + 5;
+             for (var i=0; i<2; i++){
+             var random1 = Math.floor(Math.random() * 9) + 1
+           }
+           counter= random1 + counter;
 
             $('#yourNumber').text(counter);
             
@@ -42,7 +51,10 @@ $(document).ready(function () {
 
 
            $('.larva').on('click', function() {
-            counter= counter + 9;
+             for (var i=0; i<2; i++){
+             var random1 = Math.floor(Math.random() * 9) + 1
+           }
+           counter= random1 + counter;
 
             $('#yourNumber').text(counter);
             
@@ -56,7 +68,10 @@ $(document).ready(function () {
 
 
            $('.salmon').on('click', function() {
-            counter= counter + 21;
+             for (var i=0; i<2; i++){
+             var random1 = Math.floor(Math.random() * 9) + 1
+           }
+           counter= random1 + counter;
 
             $('#yourNumber').text(counter);
             
